@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="formulario.css" media="screan"> 
+    <title>Cadastro do Formulario</title>
+</head>
+<body>
+    
+      <div>
+        <h1 id="titulo">Cadastro de Players</h1>
+        <p id="subtitulo">Compleste suas informações</p>
+        <br>
+      </div>
+
+<form>
+    <fieldset class="grupo">
+        <div class="campo">
+            <label for="nome"><strong>Nome Completo</strong></strongNome></label>
+            <input type="text" name="nome" id="nome" required>
+        </div>
+
+        <div class="campo">
+            <label for="Local"><strong>País e Estado</strong></label>
+            <input type="text" name="região" id="região" required>
+        </div>
+    </fieldset>
+
+    <div class="campo">
+        <label for="email"><strong>Email</strong></label>
+        <input type="email" nome="email" id="email" required>
+    </div>
+
+    <div class="campo">
+    <label><strong>Role(s) você joga mais ?</strong></label>
+    <label> 
+        <input type="radio" nome="SuaRole" value="DPS">Dano
+    </label>
+    <label>
+        <input type="radio" nome="SuaRole" value="Tank">Tank
+    </label>
+    <label>
+        <input type="radio" nome="SuaRole" value="Suporte">Suporte
+    </label>
+    </div>
+
+    <div class="campo">
+        <label for="Elo"><strong>Seu Elo atual na Ranked</strong></label>
+        <select id="Elo">
+            <option selected disabled value="">Escolha</option>
+            <option>Não tem elo</option>
+            <option>Bronze</option>
+            <option>Prata</option>
+            <option>Ouro</option>
+            <option>Platina</option>
+            <option>Diamante</option>
+            <option>Mestre</option>
+            <option>Grão Mestre</option>
+            </select>
+    </div>
+
+    <fieldset class="grupo">
+         <div id="check">
+            <label><strong>Selecione os 5 Personagens que você mais tem horas no jogo</strong></label><br><br>
+            <input type="checkbox" id="personagen1" nome="personagem1" value="Ana">
+            <label for="personagem1">Ana</label>
+            <input type="checkbox" id="personagen2" nome="personagem2" value="Baptiste">
+            <label for="personagem2">Baptiste</label>
+            <input type="checkbox" id="personagen3" nome="personagem3" value="Brigitte">
+            <label for="personagem3">Brigitte</label>
+            <input type="checkbox" id="personagen4" nome="personagem4" value="Kiriko">
+            <label for="personagem4">Kiriko</label>
+            <input type="checkbox" id="personagen5" nome="personagem5" value="Lucio">
+            <label for="personagem5">Lucio</label>
+            <input type="checkbox" id="personagen6" nome="personagem6" value="Mercy">
+            <label for="personagem6">Mercy</label>
+            <br>
+
+            <input type="checkbox" id="personagen7" nome="personagem7" value="Moira">
+            <label for="personagem7">Moira</label>
+            <input type="checkbox" id="personagen8" nome="personagem8" value="Zenyatta">
+            <label for="personagem8">Zenyatta</label>
+            <input type="checkbox" id="personagen9" nome="personagem9" value="DVA">
+            <label for="personagem9">DVA</label>
+            <input type="checkbox" id="personagen10" nome="personagem10" value="Doomfist">
+            <label for="personagem10">Doomfist</label>
+            <input type="checkbox" id="personagen11" nome="personagem11" value="Hammond">
+            <label for="personagem11">Hammond</label>
+            <input type="checkbox" id="personagen12" nome="personagem12" value="Junker Queen">
+            <label for="personagem12">Junker Queen</label>
+            <br>
+
+            <input type="checkbox" id="personagen13" nome="personagem13" value="Orisa">
+            <label for="personagem13">Orisa</label>
+            <input type="checkbox" id="personagen14" nome="personagem14" value="Ramattra">
+            <label for="personagem14">Ramattra</label>
+            <input type="checkbox" id="personagen15" nome="personagem15" value="Reinhardt">
+            <label for="personagem15">Reinhardt</label>
+            <input type="checkbox" id="personagen16" nome="personagem16" value="Roadhog">
+            <label for="personagem16">Roadhog</label>
+            <input type="checkbox" id="personagen17" nome="personagem17" value="Sigma">
+            <label for="personagem17">Sigma</label>
+            <input type="checkbox" id="personagen18" nome="personagem18" value="Winston">
+            <label for="personagem18">Winston</label>
+            <br>
+
+            <input type="checkbox" id="personagen19" nome="personagem19" value="Zarya">
+            <label for="personagem19">Zarya</label>
+            <input type="checkbox" id="personagen20" nome="personagem20" value="Ashe">
+            <label for="personagem20">Ashe</label>
+            <input type="checkbox" id="personagen21" nome="personagem21" value="Bastion">
+            <label for="personagem21">Bastion</label>
+            <input type="checkbox" id="personagen22" nome="personagem22" value="Cassidy">
+            <label for="personagem22">Cassidy</label>
+            <input type="checkbox" id="personagen23" nome="personagem23" value="Echo">
+            <label for="personagem23">Echo</label>
+            <input type="checkbox" id="personagen24" nome="personagem24" value="Genji">
+            <label for="personagem24">Genji</label>
+            <br>
+
+            <input type="checkbox" id="personagen25" nome="personagem25" value="Hanzo">
+            <label for="personagem25">Hanzo</label>
+            <input type="checkbox" id="personagen26" nome="personagem26" value="Junkrat">
+            <label for="personagem26">Junkrat</label>
+            <input type="checkbox" id="personagen27" nome="personagem27" value="Mei">
+            <label for="personagem27">Mei</label>
+            <input type="checkbox" id="personagen28" nome="personagem28" value="Pharah">
+            <label for="personagem28">Pharah</label>
+            <input type="checkbox" id="personagen29" nome="personagem29" value="Reaper">
+            <label for="personagem29">Reaper</label>
+            <input type="checkbox" id="personagen30" nome="personagem30" value="Soujorn">
+            <label for="personagem30">Soujorn</label>
+            <br>
+
+            <input type="checkbox" id="personagen31" nome="personagem31" value="Soldado 76">
+            <label for="personagem31">Soldado 76</label>
+            <input type="checkbox" id="personagen32" nome="personagem32" value="Sombra">
+            <label for="personagem32">Sombra</label>
+            <input type="checkbox" id="personagen33" nome="personagem33" value="Symmetra">
+            <label for="personagem33">Symmetra</label>
+            <input type="checkbox" id="personagen34" nome="personagem34" value="Torbjorn">
+            <label for="personagem34">Torbjorn</label>
+            <input type="checkbox" id="personagen35" nome="personagem35" value="Tracer">
+            <label for="personagem35">Tracer</label>
+            <input type="checkbox" id="personagen36" nome="personagem36" value="Widowmaker">
+            <label for="personagem36">Widowmaker</label>
+
+
+         </div>    
+    </fieldset>
+
+    <div class="campo">
+        <br>
+        <label for="esperiencia"><strong>Conte um pouco da sua experiência com Overwatch 2 até agora:</strong></label>
+        <textarea rows="6" style="width: 26em" id="experiencia" name="experiencia"></textarea>
+    </div>
+
+    <BUTTON class="botton" type="submit" onsubmit="">Concluído</BUTTON>
+</form>
+
+</body>
+</html>
